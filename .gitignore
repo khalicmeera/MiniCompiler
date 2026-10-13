@@ -1,0 +1,22 @@
+# Build artifacts
+/build/
+*.o
+*.exe
+
+# Generated C files
+/output.c
+/test_*.c
+/optimization.c
+/edge_cases.c
+
+# Generated intermediate representation
+/output.ir
+/output.unoptimized.ir
+/test_*.ir
+/test_*.unoptimized.ir
+/optimization.ir
+/optimization.unoptimized.ir
+/edge_cases.ir
+/edge_cases.unoptimized.ir
+/valid.ir
+/valid.unoptimized.ir
